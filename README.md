@@ -25,7 +25,7 @@
   private IDateConverter _dateConverter;  
   
   public HomeController(IDateConverter dateConverter){  
-    _dateConverter = dateConverter  
+    _dateConverter = dateConverter;  
   }  
   
   public IActionResult Index(){  
