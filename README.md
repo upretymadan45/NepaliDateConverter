@@ -10,12 +10,12 @@
     
 # And Returns the following object
 
-   public class ConvertedDate
-    {
-        public int Year { get; set; }
-        public int Month { get; set; }
-        public int Day { get; set; }
-    }
+   public class ConvertedDate  
+    {  
+        public int Year { get; set; }  
+        public int Month { get; set; }  
+        public int Day { get; set; }  
+    }  
     
  # TO use it, register singleton service in startup.cs as below
     services.AddSingleton<IDateConverter,DateConverter>();
